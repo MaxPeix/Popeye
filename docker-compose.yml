@@ -55,7 +55,6 @@ services:
     depends_on:
       - db
       - redis
-      - poll
     restart: on-failure
 
   redis:
